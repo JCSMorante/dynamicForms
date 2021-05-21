@@ -8,9 +8,8 @@ describe('EQ2InfoModelCarsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EQ2InfoModelCarsComponent ]
-    })
-    .compileComponents();
+      declarations: [EQ2InfoModelCarsComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -21,5 +20,9 @@ describe('EQ2InfoModelCarsComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('Unit Test', () => {
+    component;
   });
 });
